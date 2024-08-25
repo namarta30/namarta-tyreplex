@@ -1,0 +1,136 @@
+body {
+    font-family: "Moderustic", sans-serif;
+}
+
+.text-blue {
+    color: #574178;
+}
+
+.f-35 {
+    font-size: 3.5rem;
+}
+.b-50{
+border-radius: 50%;
+}
+
+.f-12 {
+    font-size: 14px;
+}
+.w-80{
+    width: 30%;
+}
+.w-100 {
+    width: 100%;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+.f-3{
+    font-size: 30px;
+}
+.green {
+    color: #63d337;
+}
+
+.fstyle {
+    font-size: 40px;
+}
+
+.bg-banner {
+    background-image: url("./assets/images/banner1.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.bg-white-trans {
+    background-color: #ffffffe0;
+}
+
+.bg-high {
+    position: absolute;
+    top: -16px;
+    right: -15px;
+    background-color: rgb(241, 218, 7);
+}
+
+.bg-apollo {
+    background-image: url("./assets/images/tyreapollo.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+
+    background-position: center;
+    background-size: contain;
+
+
+}
+.box{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.box:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.bg-red {
+    color: #F0676F !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #F0676F !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #F0676F !important;
+}
+
+.deal .owl-prev, .review-carousel .owl-prev,
+.deal .owl-next ,  .review-carousel .owl-next {
+    font-size: 34px !important;
+    color: white !important;
+    background-color: black !important;
+    width: 52px !important;
+    border-radius: 50% !important;
+    margin: 20px 10px 0 0;
+}
+
+.owl-nav {
+    text-align: center !important;
+}
+.img-width{
+    width: 100%;
+}
+.services .owl-prev, 
+.services .owl-next {
+    font-size: 34px !important;
+    color: rgb(12, 1, 1) !important;
+    background-color: white !important;
+    width: 52px !important;
+    border-radius: 50% !important;
+    margin: 20px 10px 0 0;
+}
+
+.footer-text:hover {
+    color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+    .fstyle {
+        font-size: 25px;
+    }
+    .w-80{
+        width: 50%;
+    }
+    .owl-carousel .owl-item img{
+        width: 50% !important;
+        margin:auto;
+    }
+    .f-3{
+        font-size: 18px;
+    }
+  }
